@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Wayne Leeds' Personal Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f5f7;
+            color: #2b4d7d;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: #d4ac63;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            color: #ffffff;
+        }
+
+        nav {
+            background-color: #2b4d7d;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #d4ac63;
+            background-color: #ffffff;
+            border-radius: 10px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .grid-item {
+            background-color: #f4f5f7;
+            padding: 20px;
+            border: 1px solid #d4ac63;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #2b4d7d;
+            color: #ffffff;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Joshua Wayne Leeds' Personal Hub
+    </header>
+    <nav>
+        <a href="#gaming">Gaming</a>
+        <a href="#tech-mods">Tech Mods</a>
+        <a href="#workshop">Workshop</a>
+        <a href="#craft">Craft</a>
+        <a href="#cooking">Cooking</a>
+        <a href="#living">Living</a>
+        <a href="#adventures">Adventures</a>
+        <a href="#family">Family</a>
+        <a href="#files">Files</a>
+    </nav>
+    <section id="gaming">
+        <h2>Gaming Guides, Tips, and Databases</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Current Game: Starfield</h3>
+                <p>Access guides, tips, and database information for Starfield.</p>
+                <!-- Embed or link to relevant guides and tips here -->
+            </div>
+            <!-- Add more grid-items for other games as needed -->
+        </div>
+    </section>
+    <section id="tech-mods">
+        <h2>Tech Mods</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Latest Tech Mods</h3>
+                <p>Explore the latest tech modifications and projects.</p>
+                <!-- Include links or descriptions of tech mods -->
+            </div>
+        </div>
+    </section>
+    <section id="workshop">
+        <h2>Workshop</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>DIY Projects</h3>
+                <p>Find inspiration for DIY projects and share your own.</p>
+                <!-- Include project details and images -->
+            </div>
+        </div>
+    </section>
+    <section id="craft">
+        <h2>Craft</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Art and Craft</h3>
+                <p>Showcase your artwork and craft projects.</p>
+                <!-- Display artwork and craft projects -->
+            </div>
+        </div>
+    </section>
+    <section id="cooking">
+        <h2>Cooking</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Recipes and Cooking Tips</h3>
+                <p>Share and explore recipes and cooking tips.</p>
+                <!-- List of recipes and cooking tips -->
+            </div>
+        </div>
+    </section>
+    <section id="living">
+        <h2>Living</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Lifestyle Tips</h3>
+                <p>Tips and advice on living a balanced and fulfilling life.</p>
+                <!-- Include lifestyle tips and advice -->
+            </div>
+        </div>
+    </section>
+    <section id="adventures">
+        <h2>Adventures</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Family Adventures</h3>
+                <p>Share your family trips and adventures.</p>
+                <!-- Include photos and stories from adventures -->
+            </div>
+        </div>
+    </section>
+    <section id="family">
+        <h2>Family</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Family Photos and Videos</h3>
+                <p>Access and share your family photos and videos.</p>
+                <!-- Embed family photos and videos -->
+            </div>
+        </div>
+    </section>
+    <section id="files">
+        <h2>Files</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>File Storage Access</h3>
+                <p>Access your iCloud storage for files and documents.</p>
+                <!-- Embed or link to iCloud storage -->
+            </div>
+        </div>
+    </section>
+    <footer>
+        &copy; 2024 Joshua Wayne Leeds. All rights reserved.
+    </footer>
+</body>
+</html>
